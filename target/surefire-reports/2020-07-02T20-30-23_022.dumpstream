@@ -1,0 +1,4 @@
+# Created at 2020-07-02T20:30:24.583
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Eclipse Backup\eclpise_data\eclipse-workspace\TestNgPractice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

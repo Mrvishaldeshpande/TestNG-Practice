@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Listenrer]">
+  <listeners>
+    <listener class-name="test.Listener"/>
+    <listener class-name="test.ExtentReporterNG"/>
+  </listeners>
+  <test name="Listenrers(failed)">
+    <classes>
+      <class name="test.Testcase7">
+        <methods>
+          <include name="test4"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- test.Testcase7 -->
+    </classes>
+  </test> <!-- Listenrers(failed) -->
+</suite> <!-- Failed suite [Listenrer] -->

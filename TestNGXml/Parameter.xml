@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parametersuit">
+<parameter name ="username" value= "--Vishal--" />
+  <test name="Parametertest">
+  
+  <parameter name ="url" value= "personalloan" />
+    <classes>
+    
+      <class name="test.Testcase3"/>
+      <class name="test.Testcase4"/>
+    </classes>
+  </test> <!-- Parametertest -->
+</suite> <!-- Parametersuit -->

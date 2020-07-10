@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Before Suite run -->
+
+<suite name="testpractice">
+<!-- Before TestMethod -->
+
+  <test name="testpractice">
+  
+    <classes>
+      <class name="test.BeforeMethodandAftermethod"/>
+      <class name="test.BeforeTestandAfterTest"/>
+      <class name="test.BeforeClassandAfterclass"/>
+      <class name="test.BeforesuitandAftersuit"/>
+      <class name="test.Fullsuit"/>
+      
+    </classes>
+  </test> <!-- testpractice -->
+  <!-- After Test Method run -->
+  
+</suite> <!-- testpractice -->
+<!-- After Suit Method run -->

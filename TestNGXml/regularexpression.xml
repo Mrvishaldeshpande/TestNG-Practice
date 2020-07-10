@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regular">
+  <test name="regular">
+    <classes>
+      <class name="test.Testcase5">
+      <methods>
+      <include name="mobile.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- regular -->
+  
+  <test name="regular2">
+    <classes>
+      <class name="test.Testcase5">
+      <methods>
+      <exclude name="mobile.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- regular -->
+  
+  
+</suite> <!-- regular -->

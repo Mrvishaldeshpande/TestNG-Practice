@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pacage]">
+  <test name="pacage(failed)">
+    <classes>
+      <class name="test.Testcase3">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Testcase"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.Testcase3 -->
+      <class name="test.BeforeClassandAfterclass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.BeforeClassandAfterclass -->
+      <class name="test.BeforeTestandAfterTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.BeforeTestandAfterTest -->
+      <class name="test.Fullsuit">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.Fullsuit -->
+      <class name="test.BeforesuitandAftersuit">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- test.BeforesuitandAftersuit -->
+      <class name="test.Testcase2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.Testcase2 -->
+      <class name="test.Testcase4">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="Testcase"/>
+        </methods>
+      </class> <!-- test.Testcase4 -->
+      <class name="test.Testcase1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.Testcase1 -->
+      <class name="test.BeforeMethodandAftermethod">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.BeforeMethodandAftermethod -->
+    </classes>
+  </test> <!-- pacage(failed) -->
+</suite> <!-- Failed suite [pacage] -->
